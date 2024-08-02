@@ -13,6 +13,10 @@ export default {
       'body': ['"Open Sans"'],
     },
     extend: {
+      colors: {
+        'brand': '#ff0000',
+        'secendry': '#666363',
+      },
       backgroundImage: {
         // Banner_bg: "url('/Background.png')",
         // Banner_bg:

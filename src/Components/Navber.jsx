@@ -14,13 +14,14 @@ const Navber = () => {
           backgroundColor: "white",
           border: "3px solid #FF0000",
           padding: "18px 0",
+          fontWeight: "700",
         }}
       >
         <NavbarBrand>
           <Link
             to="/"
             className="w-36 h-14"
-            style={{ fontSize: "30px", fontWeight: "700" }}
+            style={{ fontSize: "30px", fontWeight: "800" }}
           >
             <img
               className="w-full h-full"
@@ -31,13 +32,13 @@ const Navber = () => {
         </NavbarBrand>
         <NavbarContent>
           <NavItem>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </NavItem>
           <NavItem>
-            <a href="/about">About Us</a>
+            <Link to="/about">About Us</Link>
           </NavItem>
           <NavItem>
-            <a href="/contact">Contact Us</a>
+            <Link to="/contact">Contact Us</Link>
           </NavItem>
         </NavbarContent>
       </Navbar>
