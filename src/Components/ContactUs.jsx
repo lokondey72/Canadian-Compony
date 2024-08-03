@@ -65,7 +65,7 @@ const ContactUs = () => {
                   placeholder="Subject"
                 />
               </div>
-              <div className="flex flex-col items-center ml-8 sm:ml-0">
+              <div className="flex flex-col items-center ml-36 sm:ml-0">
                 <textarea
                   className="w-80 sm:w-[650px] h-32 lg:mr-20 bg-forth"
                   name="comment"
