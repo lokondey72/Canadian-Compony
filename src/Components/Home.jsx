@@ -8,7 +8,11 @@ const Home = () => {
       <Banner />
       <AboutOurCompony />
       <div className="App">
-        <ScrollToTop className="w-3 h-3 mb-10 pl-[6px] rounded-full" smooth color="#6f00ff" />
+        <ScrollToTop
+          className="w-3 h-3 mb-10 pl-[6px] rounded-full"
+          smooth
+          color="#ff0000"
+        />
       </div>
     </>
   );
