@@ -16,6 +16,8 @@ export default {
       colors: {
         'brand': '#ff0000',
         'secendry': '#666363',
+        'thered': '#726363',
+        'forth': '#F4F4F4',
       },
       backgroundImage: {
         // Banner_bg: "url('/Background.png')",

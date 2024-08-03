@@ -12,7 +12,7 @@ const Navber = () => {
       <Navbar
         style={{
           backgroundColor: "white",
-          border: "3px solid #FF0000",
+          border: "2px solid #FF0000",
           padding: "18px 0",
           fontWeight: "700",
         }}

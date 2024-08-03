@@ -5,22 +5,22 @@ const AboutOurCompony = () => {
   return (
     <>
       <div className="container">
-        <div className="flex my-16 mx-4">
-          <div className="mr-5">
+        <div className="lg:flex my-16 mx-4">
+          <div className="mr-5 mb-10 lg:mb-0">
             <h2 className="text-4xl text-red-600 font-bold font-inter">
               About Our Company
             </h2>
-            <div className="w-[670px] my-5">
+            <div className="sm:w-[500px] lg:w-[670px] my-5">
               <img
                 className="w-full"
                 src="about_our_compony.png"
                 alt="about_our_compony"
               />
             </div>
-            <h4 className="w-[670px] mb-5 text-3xl text-red-600 font-bold font-inter">
+            <h4 className="sm:[500px] lg:w-[670px] mb-5 text-3xl text-red-600 font-bold font-inter">
               Finest And Strongest Law Firm Win The World, One Philosophy
             </h4>
-            <p className="w-[680px] text-balance text-base font-inter">
+            <p className="sm:w-[500px] lg:w-[680px] text-balance text-base font-inter">
               Every Single one of our financial advisors receives rigorous
               training in Joe Gentleman’s philoso- phy, which is based on
               academic research (including that of a Nobel laureate in
