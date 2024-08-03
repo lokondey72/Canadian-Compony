@@ -9,10 +9,10 @@ const ContactUs = () => {
           <div className="lg:flex gap-5 mt-10">
             <div className="w-1/2 mb-5 lg:mb-0">
               <div className="w-12 h-[2px] border-b-4 border-black border-dotted"></div>
-              <h3 className="w-96 mt-5 text-4xl text-brand font-bold font-inter">
+              <h3 className="w-[300px] sm:w-96 mt-5 text-4xl text-brand font-bold font-inter">
                 Have Any Questions? Let’s Start to Talk
               </h3>
-              <p className="my-8 text-sm font-inter text-brand">
+              <p className="w-[300px] sm:w-full my-8 text-sm font-inter text-brand">
                 Nascetur sed cursus habitasse eleifend montes torquent porta
                 natoque, dis sollicitudin lobortis ad dignissim mauris netus,
                 fermentum
@@ -41,9 +41,9 @@ const ContactUs = () => {
               </ul>
             </div>
             <div className="w-1/2">
-              <div className="flex gap-5">
+              <div className="sm:flex gap-5">
                 <input
-                  className="w-80 px-5 py-3 bg-forth"
+                  className="w-80 px-5 py-3 mb-4 sm:mb-0 bg-forth"
                   type="text"
                   placeholder="Your Email"
                 />
@@ -53,9 +53,9 @@ const ContactUs = () => {
                   placeholder="Your Name"
                 />
               </div>
-              <div className="flex gap-5 my-4">
+              <div className="sm:flex gap-5 my-4">
                 <input
-                  className="w-80 px-5 py-3 bg-forth"
+                  className="w-80 px-5 py-3 mb-4 sm:mb-0 bg-forth"
                   type="text"
                   placeholder="Phone Number"
                 />
@@ -65,9 +65,9 @@ const ContactUs = () => {
                   placeholder="Subject"
                 />
               </div>
-              <div className="flex flex-col items-center">
+              <div className="flex flex-col items-center ml-8 sm:ml-0">
                 <textarea
-                  className="w-[660px] h-32 lg:mr-20 bg-forth"
+                  className="w-80 sm:w-[650px] h-32 lg:mr-20 bg-forth"
                   name="comment"
                   id=""
                 ></textarea>
