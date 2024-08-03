@@ -1,5 +1,6 @@
 import { FaFacebook, FaTwitter, FaYoutube, FaDigg } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import ScrollToTop from "react-scroll-to-top";
 
 const ContactUs = () => {
   return (
@@ -81,6 +82,11 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
+      <ScrollToTop
+        className="w-3 h-3 mb-10 pl-[6px] rounded-full"
+        smooth
+        color="#ff0000"
+      />
     </>
   );
 };

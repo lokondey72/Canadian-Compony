@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { IoIosArrowForward } from "react-icons/io";
+import ScrollToTop from "react-scroll-to-top";
 
 const AboutUs = () => {
   return (
@@ -52,6 +53,11 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      <ScrollToTop
+        className="w-3 h-3 mb-10 pl-[6px] rounded-full"
+        smooth
+        color="#ff0000"
+      />
     </>
   );
 };
